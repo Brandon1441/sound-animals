@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonidos animales</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      .search-container {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .search-container input {
+        padding: 10px;
+        font-size: 1em;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        width: 100%;
+      }
+
+      .m6cn6 {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .m6cn6:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .m6cn6 img {
+        width: 100%;
+        height: auto;
+      }
+
+      .b3CYFf {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 10px 0;
+        background-color: #4caf50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Buscar por nombre"
+        oninput="filterAnimals()"
+      />
+    </div>
+
+    <div class="grid" onclick="handleClick(event)">
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/delfin.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Delfin</div>
+        <audio jsname="kODWGd" src="./static/delfin.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/mosquito.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Mosquito</div>
+        <audio jsname="kODWGd" src="./static/mosquito.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/chimpance.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Chimpance</div>
+        <audio jsname="kODWGd" src="./static/chimpance.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/burro.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Burro</div>
+        <audio jsname="kODWGd" src="./static/burro.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/aguila.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Aguila</div>
+        <audio jsname="kODWGd" src="./static/aguila.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/pavo-real.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Pavo real</div>
+        <audio jsname="kODWGd" src="./static/pavo-real.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/ganso.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Ganso</div>
+        <audio jsname="kODWGd" src="./static/ganso.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/pollo.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Pollo</div>
+        <audio jsname="kODWGd" src="./static/pollo.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/loro.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Loro</div>
+        <audio jsname="kODWGd" src="./static/loro.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/canario.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Canario</div>
+        <audio jsname="kODWGd" src="./static/canario.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/mosca.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Mosca</div>
+        <audio jsname="kODWGd" src="./static/mosca.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/cabra.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cabra</div>
+        <audio jsname="kODWGd" src="./static/cabra.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/oso.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Oso</div>
+        <audio jsname="kODWGd" src="./static/oso.mp3"></audio>
+      </div>
+
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h3n"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAk"
+      >
+        <img src="./static/bee.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Abeja</div>
+        <audio jsname="kODWGd" src="./static/bee.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/054pq"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAl"
+      >
+        <img src="./static/moose.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Alce</div>
+        <audio jsname="kODWGd" src="./static/moose.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0pcr"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAm"
+      >
+        <img src="./static/alpaca.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Alpaca</div>
+        <audio jsname="kODWGd" src="./static/alpaca.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0czz2"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAn"
+      >
+        <img src="./static/antelope.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Antílope</div>
+        <audio jsname="kODWGd" src="./static/antelope.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01sf9c"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAo"
+      >
+        <img src="./static/bowhead-whale.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Ballena boreal</div>
+        <audio jsname="kODWGd" src="./static/bowhead-whale.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01hq29"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAp"
+      >
+        <img
+          src="./static/humpback-whale.png"
+          alt=""
+          height="112"
+          width="112"
+        />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Ballena jorobada</div>
+        <audio jsname="kODWGd" src="./static/humpback-whale.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0g0zc"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAq"
+      >
+        <img src="./static/buffalo.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Búfalo</div>
+        <audio jsname="kODWGd" src="./static/buffalo.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/09d5_"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAr"
+      >
+        <img src="./static/owl.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Búho</div>
+        <audio jsname="kODWGd" src="./static/owl.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/03k3r"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAs"
+      >
+        <img src="./static/horse.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Caballo</div>
+        <audio jsname="kODWGd" src="./static/horse.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01njq7"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAt"
+      >
+        <img src="./static/alligator.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Caimán</div>
+        <audio jsname="kODWGd" src="./static/alligator.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01x_v"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAu"
+      >
+        <img src="./static/camel.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Camello</div>
+        <audio jsname="kODWGd" src="./static/camel.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0898b"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAv"
+      >
+        <img src="./static/zebra.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cebra</div>
+        <audio jsname="kODWGd" src="./static/zebra.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/068zj"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAw"
+      >
+        <img src="./static/pig.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cerdo</div>
+        <audio jsname="kODWGd" src="./static/pig.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0dftk"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAx"
+      >
+        <img src="./static/swan.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cisne</div>
+        <audio jsname="kODWGd" src="./static/swan.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0gy7v"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAy"
+      >
+        <img src="./static/guinea-pig.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cobayo</div>
+        <audio jsname="kODWGd" src="./static/guinea-pig.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/06mf6"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxAz"
+      >
+        <img src="./static/rabbit.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Conejo</div>
+        <audio jsname="kODWGd" src="./static/rabbit.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/04s8yn"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA0"
+      >
+        <img src="./static/crow.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Cuervo</div>
+        <audio jsname="kODWGd" src="./static/crow.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/029tx"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA1"
+      >
+        <img src="./static/dinosaur.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Dinosaurio</div>
+        <audio jsname="kODWGd" src="./static/dinosaur.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/04f79"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA2"
+      >
+        <img src="./static/komodo-dragon.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Dragón de Komodo</div>
+        <audio jsname="kODWGd" src="./static/komodo-dragon.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0bwd_0j"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA3"
+      >
+        <img src="./static/elephant.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Elefante</div>
+        <audio jsname="kODWGd" src="./static/elephant.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0cl4p"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA4"
+      >
+        <img src="./static/hedgehog.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Erizo</div>
+        <audio jsname="kODWGd" src="./static/hedgehog.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0755b"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA5"
+      >
+        <img src="./static/scorpion.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Escorpión</div>
+        <audio jsname="kODWGd" src="./static/scorpion.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/09b5t"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA6"
+      >
+        <img src="./static/chicken.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Gallina</div>
+        <audio jsname="kODWGd" src="./static/chicken.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/06mfp"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA7"
+      >
+        <img src="./static/rooster.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Gallo</div>
+        <audio jsname="kODWGd" src="./static/rooster.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01yrx"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA8"
+      >
+        <img src="./static/cat.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Gato</div>
+        <audio jsname="kODWGd" src="./static/cat.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/g/1211j9yp"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA9"
+      >
+        <img src="./static/falcon.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Halcón</div>
+        <audio jsname="kODWGd" src="./static/falcon.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/03m8_"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA-"
+      >
+        <img src="./static/hyena.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Hiena</div>
+        <audio jsname="kODWGd" src="./static/hyena.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/09f20"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxA_"
+      >
+        <img src="./static/hippopotamus.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Hipopótamo</div>
+        <audio jsname="kODWGd" src="./static/hippopotamus.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01205h"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBA"
+      >
+        <img src="./static/ferret.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Hurón</div>
+        <audio jsname="kODWGd" src="./static/ferret.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/03bk1"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBB"
+      >
+        <img src="./static/giraffe.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Jirafa</div>
+        <audio jsname="kODWGd" src="./static/giraffe.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/04m9y"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBC"
+      >
+        <img src="./static/lizard.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Lagarto</div>
+        <audio jsname="kODWGd" src="./static/lizard.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0c29q"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBD"
+      >
+        <img src="./static/leopard.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Leopardo</div>
+        <audio jsname="kODWGd" src="./static/leopard.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/096mb"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBE"
+      >
+        <img src="./static/lion.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">León</div>
+        <audio jsname="kODWGd" src="./static/lion.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/084sq"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBF"
+      >
+        <img src="./static/wolf.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Lobo</div>
+        <audio jsname="kODWGd" src="./static/wolf.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0108t9qd"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBG"
+      >
+        <img
+          src="./static/african-grey-parrot.png"
+          alt=""
+          height="112"
+          width="112"
+        />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Loro gris africano</div>
+        <audio jsname="kODWGd" src="./static/african-grey-parrot.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0dq75"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBH"
+      >
+        <img src="./static/raccoon.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Mapache</div>
+        <audio jsname="kODWGd" src="./static/raccoon.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0cyf8"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBI"
+      >
+        <img src="./static/butterfly.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Mariposa</div>
+        <audio jsname="kODWGd" src="./static/butterfly.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0hscv"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBJ"
+      >
+        <img src="./static/robin.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Mirlo</div>
+        <audio jsname="kODWGd" src="./static/robin.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01h44"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBK"
+      >
+        <img src="./static/bat.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Murciélago</div>
+        <audio jsname="kODWGd" src="./static/bat.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0cn6p"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBL"
+      >
+        <img src="./static/otter.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Nutria</div>
+        <audio jsname="kODWGd" src="./static/otter.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0y63"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBM"
+      >
+        <img src="./static/anteater.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Oso hormiguero</div>
+        <audio jsname="kODWGd" src="./static/anteater.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/07bgp"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBN"
+      >
+        <img src="./static/sheep.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Oveja</div>
+        <audio jsname="kODWGd" src="./static/sheep.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0h0rv"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBO"
+      >
+        <img src="./static/dove.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Paloma</div>
+        <audio jsname="kODWGd" src="./static/dove.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/03bj1"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBP"
+      >
+        <img src="./static/panda.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Panda</div>
+        <audio jsname="kODWGd" src="./static/panda.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/09ddx"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBQ"
+      >
+        <img src="./static/duck.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Pato</div>
+        <audio jsname="kODWGd" src="./static/duck.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0jly1"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBR"
+      >
+        <img src="./static/turkey.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Pavo</div>
+        <audio jsname="kODWGd" src="./static/turkey.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0bt9lr"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBS"
+      >
+        <img src="./static/dog.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Perro</div>
+        <audio jsname="kODWGd" src="./static/dog.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/05z6w"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBT"
+      >
+        <img src="./static/penguin.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Pingüino</div>
+        <audio jsname="kODWGd" src="./static/penguin.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/09ld4"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBU"
+      >
+        <img src="./static/frog.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Rana</div>
+        <audio jsname="kODWGd" src="./static/frog.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/06lk1"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBV"
+      >
+        <img src="./static/rat.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Rata</div>
+        <audio jsname="kODWGd" src="./static/rat.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/03d443"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBW"
+      >
+        <img src="./static/rhinoceros.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Rinoceronte</div>
+        <audio jsname="kODWGd" src="./static/rhinoceros.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/02bx9b"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBX"
+      >
+        <img src="./static/rattlesnake.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Serpiente de cascabel</div>
+        <audio jsname="kODWGd" src="./static/rattlesnake.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01hf_2"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBY"
+      >
+        <img src="./static/ape.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Simio</div>
+        <audio jsname="kODWGd" src="./static/ape.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/0by6g"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBZ"
+      >
+        <img src="./static/shark.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Tiburón</div>
+        <audio jsname="kODWGd" src="./static/shark.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/07dm6"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBa"
+      >
+        <img src="./static/tiger.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Tigre</div>
+        <audio jsname="kODWGd" src="./static/tiger.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01xq0k1"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBb"
+      >
+        <img src="./static/cow.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Vaca</div>
+        <audio jsname="kODWGd" src="./static/cow.mp3"></audio>
+      </div>
+      <div
+        class="m6cn6"
+        jscontroller="KaMONd"
+        data-mid="/m/01hhp3"
+        jsaction="lCU3Od"
+        role="button"
+        tabindex="0"
+        data-ved="2ahUKEwi8u-aliqWKAxVGpZUCHQTTHG0Q7I4BegQIIxBc"
+      >
+        <img src="./static/yak.png" alt="" height="112" width="112" />
+        <div class="tkRsEc"><div jsname="Bz112c" class="nm8ICe"></div></div>
+        <div class="b3CYFf">Yak</div>
+        <audio jsname="kODWGd" src="./static/yak.mp3"></audio>
+      </div>
+    </div>
+
+    <script>
+      function handleClick(event) {
+        const target = event.target.closest(".m6cn6");
+        if (target) {
+          const audioElement = target.querySelector("audio");
+          if (audioElement) {
+            audioElement.play();
+          }
+        }
+      }
+    </script>
+
+    <script>
+      function filterAnimals() {
+        const query = document
+          .getElementById("search-input")
+          .value.toLowerCase();
+        const animals = document.querySelectorAll(".m6cn6");
+        animals.forEach((animal) => {
+          const name = animal
+            .querySelector(".b3CYFf")
+            .textContent.toLowerCase();
+          if (name.includes(query)) {
+            animal.style.display = "";
+          } else {
+            animal.style.display = "none";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
